@@ -1,0 +1,13 @@
+build/
+.gradle/
+run/
+out/
+*.log
+*.tsrg
+*.srg
+*.zip
+*.bin
+*.lock
+*.lzma
+*.input
+!gradle/wrapper/gradle-wrapper.jar
