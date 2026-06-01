@@ -1,0 +1,36 @@
+{
+  "mappings": {
+    "com/melicia/performance/mixin/RenderTypeMixin": {
+      "glint": "Lnet/minecraft/client/renderer/RenderType;m_110490_()Lnet/minecraft/client/renderer/RenderType;",
+      "glintTranslucent": "Lnet/minecraft/client/renderer/RenderType;m_110487_()Lnet/minecraft/client/renderer/RenderType;",
+      "glintDirect": "Lnet/minecraft/client/renderer/RenderType;m_110493_()Lnet/minecraft/client/renderer/RenderType;"
+    },
+    "com/melicia/performance/mixin/ParticleEngineMixin": {
+      "add": "Lnet/minecraft/client/particle/ParticleEngine;m_107344_(Lnet/minecraft/client/particle/Particle;)V"
+    },
+    "com/melicia/performance/mixin/EntityRenderDispatcherMixin": {
+      "render": "Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;m_114384_(Lnet/minecraft/world/entity/Entity;DDDFFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+    },
+    "com/melicia/performance/mixin/LeavesBlockMixin": {
+      "randomTick": "Lnet/minecraft/world/level/block/LeavesBlock;m_213898_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/melicia/performance/mixin/RenderTypeMixin": {
+        "glint": "Lnet/minecraft/client/renderer/RenderType;m_110490_()Lnet/minecraft/client/renderer/RenderType;",
+        "glintTranslucent": "Lnet/minecraft/client/renderer/RenderType;m_110487_()Lnet/minecraft/client/renderer/RenderType;",
+        "glintDirect": "Lnet/minecraft/client/renderer/RenderType;m_110493_()Lnet/minecraft/client/renderer/RenderType;"
+      },
+      "com/melicia/performance/mixin/ParticleEngineMixin": {
+        "add": "Lnet/minecraft/client/particle/ParticleEngine;m_107344_(Lnet/minecraft/client/particle/Particle;)V"
+      },
+      "com/melicia/performance/mixin/EntityRenderDispatcherMixin": {
+        "render": "Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;m_114384_(Lnet/minecraft/world/entity/Entity;DDDFFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+      },
+      "com/melicia/performance/mixin/LeavesBlockMixin": {
+        "randomTick": "Lnet/minecraft/world/level/block/LeavesBlock;m_213898_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V"
+      }
+    }
+  }
+}

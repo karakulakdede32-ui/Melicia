@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: Melicia
+Specification-Vendor: Melicia
+Specification-Version: 1
+Implementation-Title: melicia
+Implementation-Version: 1.0.0
+Implementation-Vendor: Melicia
+Implementation-Timestamp: 2026-06-01T12:37:46+0200
+MixinConfigs: melicia.mixins.json
+
